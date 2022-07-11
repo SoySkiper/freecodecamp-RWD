@@ -1,0 +1,90 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 70px;
+}
+
+#header-img{
+    width: 50px;
+    position: relative;
+    left: 20px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 90%;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.navL{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+#newsletter{
+    margin-top: 85px;
+}
+#formLabel{
+    font-size: 1.2rem;
+}
+#email{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submit{
+    width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#Review{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    margin-top: 25px;
+}
+#features{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+     <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn-icons-png.flaticon.com/512/114/114683.png"
+        alt="Keyboar Market"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link">
+            <a href="#features" class="navL">Features</a>
+          </li>
+          <li class="nav-link"><a href="#review" class="navL">Review</a></li>
+          <li class="nav-link"><a href="#pricing" class="navL">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="newsletter">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <label for="email" id="formLabel"
+            >Receive offers, news, and our monthly newsletter</label
+          ><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          /><br />
+          <input type="submit" id="submit" value="Get Started" />
+        </form>
+      </section>
+      <section id="review">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/o7AqU4tWQI0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </section>
+
+      <section id="features">
+        <span>
+          <p>Features</p>
+        </span>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/pf-1fcf128e--KeychronK2wirelessmechanicalkeyboardforMacWindowsiOSAndroidwithGateronswitchredbluebrownwithUSBCTypeCCablewired.jpeg?v=1598682395"
+          alt="Features"
+        />
+      </section>
+      <section id="pricing">
+        <!-- Slider -->
+      <div id="slider">
+        <div class="bxslider">
+          <div><img src="img/rojo.jpg" title="Rojo"></div>
+          <div><img src="img/hojas.jpg" title="Hojas"></div>
+          <div><img src="img/cielo.jpg" title="Cielo"></div>
+        </div>
+      </div>
+      </section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem
+        perferendis illo non aut ipsam est expedita nulla, iusto excepturi
+        praesentium eum eligendi ex, aperiam itaque similique laboriosam
+        sapiente! At.
+      </p>
+      <br /><br /><br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        nemo soluta perferendis assumenda alias voluptas porro quam sit fuga
+        adipisci iste ex numquam, dicta ipsa ea esse blanditiis ab fugiat.
+      </p>
+      <br /><br /><br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quos ad,
+        modi placeat distinctio eius. Pariatur iusto exercitationem modi sunt,
+        molestias sint quae accusantium, nihil nisi est animi numquam aliquam!
+      </p>
+    </main>
+    <footer></footer>
+  </body>
+</html>
