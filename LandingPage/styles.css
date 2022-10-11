@@ -2,6 +2,9 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(0, 0, 0);
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(252, 252, 252);
 }
@@ -52,6 +55,10 @@ li {
 main {
   text-align: center;
 }
+#slider{
+  margin-top: 100px;
+  width: 90%;
+}
 #newsletter {
   margin-top: 100px;
 }
@@ -86,13 +93,29 @@ iframe {
 }
 #features {
   margin-top: 20px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   display: flex;
-  align-items: center;
+}
+#ulFeatures{
   justify-content: center;
   flex-wrap: wrap;
+  display: block;
 }
-
+.liFeatures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.liFeatures img{
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+}
+.divFeatures{
+  width: 60%;
+  text-align: left;
+}
 #pricingContainer {
   display: flex;
   flex-direction: row;
