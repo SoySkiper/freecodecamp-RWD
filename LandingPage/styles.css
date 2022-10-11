@@ -7,19 +7,21 @@ body{
 }
 
 header{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(238, 238, 238);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     height: 70px;
+    box-shadow: 0px 4px 4px 0px;
+    color: black;
 }
 
 #header-img{
     width: 50px;
     position: relative;
-    left: 20px;
+    left: 40px;
 }
 
 nav{
@@ -40,11 +42,10 @@ li{
     list-style: none;
     margin-left: 20px;
     margin-right: 10px;
-    font-weight: bold;
 }
 
 .navL{
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -52,7 +53,7 @@ main{
     text-align: center;
 }
 #newsletter{
-    margin-top: 85px;
+    margin-top: 100px;
 }
 #formLabel{
     font-size: 1.2rem;
@@ -86,5 +87,15 @@ iframe{
 #features{
     margin-top: 20px;
     font-size: 1.8rem;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
 }
