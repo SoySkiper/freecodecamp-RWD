@@ -1,75 +1,75 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(0, 0, 0);
 }
-body{
-    background-color: rgb(252, 252, 252);
-}
-
-header{
-    background-color: rgb(238, 238, 238);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    height: 70px;
-    box-shadow: 0px 4px 4px 0px;
-    color: black;
+body {
+  background-color: rgb(252, 252, 252);
 }
 
-#header-img{
-    width: 50px;
-    position: relative;
-    left: 40px;
+header {
+  background-color: rgb(238, 238, 238);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 70px;
+  box-shadow: 0px 4px 4px 0px;
+  color: rgb(77, 77, 77);
 }
 
-nav{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    width: 90%;
-    align-items: center;
+#header-img {
+  width: 50px;
+  position: relative;
+  left: 40px;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  width: 90%;
+  align-items: center;
 }
 
-li{
-    list-style: none;
-    margin-left: 20px;
-    margin-right: 10px;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
-.navL{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
-main{
-    text-align: center;
+.navL {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
-#newsletter{
-    margin-top: 100px;
+
+main {
+  text-align: center;
 }
-#formLabel{
-    font-size: 1.2rem;
+#newsletter {
+  margin-top: 100px;
 }
-#email{
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid rgb(177, 177, 177);
-    border-radius: 4px;
-    box-sizing: border-box;
+#formLabel {
+  font-size: 1.2rem;
 }
-#submit{
-    width: 15%;
-  background-color: #4CAF50;
+#email {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#submit {
+  width: 15%;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -77,25 +77,63 @@ main{
   border-radius: 4px;
   cursor: pointer;
 }
-#Review{
-    display: flex;
-    justify-content: center;
+#Review {
+  display: flex;
+  justify-content: center;
 }
-iframe{
-    margin-top: 25px;
+iframe {
+  margin-top: 25px;
 }
-#features{
-    margin-top: 20px;
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+#features {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 125px;
-    width: 20vw;
+
+#pricingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.boxPricing {
+  width: calc(100% / 4);
+  margin: 20px;
+  border: rgb(82, 82, 82) solid;
+  text-align: center;
+  flex-direction: column;
+}
+.titleBoxPricing {
+  /* margin: 1rem; */
+  background-color: rgb(180, 180, 180);
+  padding: 1rem;
+}
+.boxPricing ol li {
+  padding-left: 8px;
+  text-align: left;
+}
+.boxPricing img {
+  width: 200px;
+}
+.btn {
+  width: 30%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#btn2 {
+  margin-top: 60px;
+}
+footer {
+  background-color: rgb(189, 189, 189);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
 }
