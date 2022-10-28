@@ -79,8 +79,6 @@ nav a:hover .code {
   color: #42b883;
 }
 
-/* Welcome section */
-
 #welcome-section {
   margin: 5rem;
   display: flex;
@@ -139,8 +137,6 @@ nav a:hover .code {
   }
 }
 
-/* About section */
-
 #about {
   padding: 10rem 5rem 5rem 5rem;
 }
@@ -194,8 +190,6 @@ nav a:hover .code {
   padding-bottom: 2rem;
 }
 
-/* Projects section */
-
 #projects {
   padding: 10rem 5rem;
   text-align: center;
@@ -245,8 +239,6 @@ nav a:hover .code {
   font-weight: 200;
 }
 
-/* Contact section */
-
 #contact {
   margin-top: 3rem;
   padding: 10rem 5rem;
@@ -287,8 +279,6 @@ nav a:hover .code {
   color: #42b883;
 }
 
-/* Footer */
-
 footer {
   text-align: center;
   padding: 2rem 0;
@@ -304,17 +294,4 @@ footer {
 
 footer .code {
   color: #42b883;
-}
-
-/* Text Selection Color */
-
-
-::-moz-selection { /* Code for Firefox */
-  color: #fff;
-  background: #02A1A3;
-}
-
-::selection {
-  color: #fff;
-  background: #02A1A3;
 }
