@@ -47,8 +47,6 @@ img {
   display: block;
 }
 
-/* Navigation */
-
 .nav {
   display: flex;
   justify-content: center;
@@ -89,7 +87,7 @@ nav a:hover .code {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 @media (max-width: 850px) {
